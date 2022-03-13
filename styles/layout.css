@@ -1,0 +1,25 @@
+.layout-header {
+    background-color: rgb(16, 6, 61);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+}
+ 
+.layout-footer {
+    background-color: rgb(172, 170, 170);
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 87vh;
+    margin: 0;
+    background-color: rgb(241, 245, 239);
+}
