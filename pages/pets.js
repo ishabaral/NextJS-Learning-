@@ -9,7 +9,7 @@ function PetsPage() {
                 ['1', '2', '3', '4'].map( path => {
                     return (
                         <div key= {path}>
-                            <Image src={`/${path}.jpg`} placeholder='blur' blurDataURL='' alt = 'pet' width='280' height='420'/>
+                            <Image src={`/${path}.jpg`}  alt = 'pet' width='280' height='420'/>
                         </div>
                     )
                 })
