@@ -13,7 +13,16 @@ return (
 }
 export default Blog
 
-export async function getServerSideProps() {
+export async function getStaticPaths() {
+    return {
+        paths: [
+            { params : { blogId: '1' }}
+        ],
+        fallback: false,
+    }
+}
+
+export async function getStaticProps() {
     return {
         props: {
             title: 'Blog Title',
